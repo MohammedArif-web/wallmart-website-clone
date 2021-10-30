@@ -5,6 +5,7 @@ body{
     overflow-x: hidden;
     list-style: none;
     margin-left: 5px;
+    
 }
 #benettonville{
     height: 50px;
@@ -172,13 +173,14 @@ h2::after {
     top: 400px;
 }
 .sect2 img{
-    width: 22rem;
-    height: 22rem;
+    width: 18rem;
+    height: 18rem;
 }
-.sect2 img{
-    width: 22rem;
-    height: 22rem;
+.hai{
+    display: flex;
+    justify-content: space-evenly;
 }
+
 @media(max-width: 767px)
 {
     .carousel2 img{
@@ -211,6 +213,7 @@ nav{
 }
 .white{
     display: flex;
+    justify-content: space-evenly;
 }
 /* textwhite{
     content: ;
